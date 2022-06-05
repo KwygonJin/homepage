@@ -143,7 +143,7 @@ body {
 }
 
 .intro__icon-wrapper {
-    margin-right: 30px;
+    margin-right: 15px;
     width: 30px;
     display: flex;
     justify-content: center;
@@ -167,6 +167,13 @@ body {
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.skills_main_text {
+    color: var(--primary-text-color);
+    font-weight : bold;
+    text-align: justify;
 }
 
 .skills__text {
@@ -184,6 +191,7 @@ body {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 .experiences__company-header-durability {
@@ -207,14 +215,14 @@ body {
 }
 
 .experiences__company-project-role {
-    color: var(--durability-text-color);
+    color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
 .experiences__company-project-name {
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 10px;
 }
@@ -236,6 +244,7 @@ body {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 .additional-info__education-university-durability {
@@ -255,16 +264,78 @@ body {
     color: var(--secondary-text-color);
 }
 
+.additional-info__add_education {
+    margin-bottom: 20px;
+}
+
+.additional-info__add_education-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.additional-info__add_education-university-durability {
+    color: var(--durability-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.additional-info__add_education-university-speciality {
+    color: var(--primary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.additional-info__add_education-university-name {
+    color: var(--secondary-text-color);
+}  
+
 .additional-info__languages {
     margin-bottom: 20px;
+}
+
+.additional-info__ul {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
 }
 
 .additional-info__languages-header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+/*Hobby*/
+
+.hobby__header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.hobby__text {
+    color: var(--secondary-text-color);
+    text-align: justify;
+}
+
+.beer__avatar {
+    display: none;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid;
+    border-color: var(--text-decoration-color);
+}
+
+.hobby:hover .beer__avatar{
+    display: block;
+  }
