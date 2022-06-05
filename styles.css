@@ -325,3 +325,17 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
 }
+
+.beer__avatar {
+    display: none;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid;
+    border-color: var(--text-decoration-color);
+}
+
+.hobby:hover .beer__avatar{
+    display: block;
+  }
